@@ -1,4 +1,3 @@
-
 CREATE TABLE usuario (
     id_usuario INT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,

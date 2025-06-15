@@ -1,3 +1,4 @@
 // Comando terminal para criar uma migration
 
 npx sequelize-cli model:generate --name Usuario --attributes nome:string,email:string,senha:string
+npx sequelize-cli db:migrate
