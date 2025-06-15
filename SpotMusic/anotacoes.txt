@@ -1,4 +1,17 @@
 // Comando terminal para criar uma migration
-
 npx sequelize-cli model:generate --name Usuario --attributes nome:string,email:string,senha:string
+
+/*
+Verifique no caminho src/models/usuario se 
+*/
+
+/*
+Após criado, verifique no caminho src/database/migrations se está
+com o arquivo está com o nome da tabela e da PK correto.
+Por padrão o sequilize faz pluralização ou seja coloca "usuarios"
+ao invés de "usuario"
+*/
+
+
+// Envia os comandos para o banco
 npx sequelize-cli db:migrate
