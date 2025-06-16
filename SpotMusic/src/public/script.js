@@ -17,8 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Formatação da data para o formato DD/MM/YYYY HH:mm:ss esperado pela sua API
         if (dt_nascimento) {
             const [year, month, day] = dt_nascimento.split('-');
-            // Cuidado com fusos horários. Para simplificar, assumiremos 00:00:00 local.
-            dt_nascimento = `${day}/${month}/${year} 00:00:00`;
+            dt_nascimento = `${month}/${day}/${year} 00:00:00`;
         }
 
         const userData = {
