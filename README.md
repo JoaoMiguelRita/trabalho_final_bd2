@@ -26,3 +26,6 @@ Endpoints:
 })  
 
 -- DELETE-ID-DELETE: http://localhost:3333/usuarios/:id_usuario
+
+exemplo: 
+npx sequelize-cli model:generate --name usuario --attributes id_usuario:integer,nome:string,email:string,senha:string,dt_nascimento:date,tipo_conta:string
