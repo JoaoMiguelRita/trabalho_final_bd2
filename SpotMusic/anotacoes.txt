@@ -15,3 +15,17 @@ ao invés de "usuario"
 
 // Envia os comandos para o banco
 npx sequelize-cli db:migrate
+
+
+// caso de merda 
+TRUNCATE TABLE
+  curtidas,
+  historico_reproducao,
+  playlist_musica,
+  playlist,
+  musica,
+  album,
+  artista,
+  usuario
+RESTART IDENTITY CASCADE;
+remover td do banco para os inserts iniciais

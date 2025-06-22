@@ -146,6 +146,5 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.textContent = '';
         cancelarBtn.style.display = 'none';
     });
-
     carregarUsuarios();
 });
